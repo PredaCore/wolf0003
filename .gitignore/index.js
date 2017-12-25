@@ -64,7 +64,7 @@ __bonjour__
       .setFooter('Pied de page - 2048','https://i.imgur.com/w1vhFSR.png')
       .setImage('https://i.imgur.com/yVpYmuV.png')
       .setThumbnail('https://i.imgur.com/p2qNFag')
-      .setTimestramp()
+      .setTimestamp()
       .setURL('http://google.com');
       
       embed.addField('Markdown', 'Le **Markdown**, c\'est la *vie* ! ***Discord***')
