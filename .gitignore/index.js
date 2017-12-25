@@ -33,4 +33,4 @@ bot.on('guildMemberAdd', member => {
   }).catch(console.error)
 });
 
-bot.login("Mzk0NDc2MjQzOTc5OTkzMDg5.DSFzbg.wm0qD6l8YM5t5bFT2nKQpnHg1zw");
+bot.login("Mzk0NzcwNDk5MjE0OTAxMjU5.DSJKMQ.52YJYJCx7zG5PzIibfBF9gftsuA");
