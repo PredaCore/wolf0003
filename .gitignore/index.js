@@ -12,25 +12,9 @@ bot.on('ready', function() {
 bot.on('message', message => {
   if(message.content[0] === PREFIX) {
     if(message.content === '!markdown') {
-      message.channel.send(
-      `Le **Markdown**,c'est la *vie* ! ***Discord***
-
-~~bonjour~~
-__bonjour__
-`);
-      message.channel.send("``code``");
+      message.reply('world !');
     }
-    else if(message.content === '!richEmbed1') {
-      message.channel.send({embed: {
-        color: 3447003,
-        description: 'bonjour le monde!'
   }
-});
-
-bot.on('guildMemberAdd', member => {
-  member.createDM().then(channel => {
-    return channel.send('Bienvenue sur Wolfayeur ' + member.displayName);
-  }).catch(console.error)
 });
 
 bot.login('Mzk0NzcwNDk5MjE0OTAxMjU5.DSJL4w.n63qj1h5ZLKceipPdDMdMPQwAZc');
