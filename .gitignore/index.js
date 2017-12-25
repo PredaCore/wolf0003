@@ -12,7 +12,19 @@ bot.on('ready', function() {
 bot.on('message', message => {
   if(message.content[0] === PREFIX) {
     if(message.content === '!markdown') {
-      message.reply('world !');
+      message.channel.send(
+`Le **Markdown**, c'est la *vie* ! ***Discord***
+      
+~~bonjour~~
+__bonjour__
+`);
+      message.channel.send("``code``");
+    }
+    else if(message.content === '!richEmbed1') {
+      message.channel.send({embed: {
+        color: 3447003,
+        description: 'bonjour le monde!'
+      }});
     }
   }
 });
