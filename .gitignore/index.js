@@ -5,7 +5,7 @@ var bot = new Discord.Client();
 const PREFIX = "!";
 
 bot.on('ready', function() {
-    bot.user.setGame("wolf0003,!help");
+    bot.user.setGame("Race : Humain");
     console.log("le bot a bien ete connecte");
 });
 
