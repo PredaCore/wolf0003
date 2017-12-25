@@ -60,7 +60,7 @@ __bonjour__
       embed.setTitle('Mon titre - 256 caractères')
       .setAuthor('Nom', 'https://i.imgur.com/lm8s41J.png')
       .setColor(3447003)
-      .etDescription('Ma Description - 2018 caractères')
+      .setDescription('Ma Description - 2018 caractères')
       .setFooter('Pied de page - 2048','https://i.imgur.com/w1vhFSR.png')
       .setImage('https://i.imgur.com/yVpYmuV.png')
       .setThumbnail('https://i.imgur.com/p2qNFag')
