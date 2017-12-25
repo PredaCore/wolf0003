@@ -26,6 +26,30 @@ __bonjour__
         description: 'bonjour le monde!'
       }});
     }
+    else if(message.content === '!richEmbed2') {
+      message.channel.send({embed: {
+        color: 3447003,
+        author: {
+          name: bot.user.username,
+          icon_url: bot.user.avatarURL
+        },
+        title: 'Titre',
+        url: 'http://wolfayeur.fr',
+        description: 'bonjour le monde!',
+        fields: [{
+        name:'Du texte simple',
+          value: 'Votre texte ici'
+        },
+                 {
+          name:'Ajout d\'une Url',
+          value: 'Voila l\'adresse de [Google](google.com).' 
+                 },
+                 {
+          name:'Markdown',
+          value: 'Le **Markdown**, c\'est la *vie* ! ***Discord***'  
+        }]
+      }});
+    }
   }
 });
 
