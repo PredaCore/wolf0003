@@ -42,7 +42,7 @@ __bonjour__
         },
                  {
           name:'Ajout d\'une Url',
-          value: 'Voila l\'adresse de [Google](google.com).' 
+          value: 'Voila l\'adresse de [Google](http://google.com).' 
                  },
                  {
           name:'Markdown',
