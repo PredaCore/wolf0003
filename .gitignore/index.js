@@ -4,7 +4,7 @@ var bot = new Discord.Client();
 
 const PREFIX = "!";
 
-bot.on("ready", function() {
+bot.on('ready', function() {
     bot.user.setGame("wolf0003,!help");
     console.log("le bot a bien ete connecte");
 });
@@ -33,4 +33,4 @@ bot.on('guildMemberAdd', member => {
   }).catch(console.error)
 });
 
-bot.login("Mzk0NzcwNDk5MjE0OTAxMjU5.DSJL4w.n63qj1h5ZLKceipPdDMdMPQwAZc");
+bot.login('Mzk0NzcwNDk5MjE0OTAxMjU5.DSJL4w.n63qj1h5ZLKceipPdDMdMPQwAZc');
