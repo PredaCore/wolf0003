@@ -61,9 +61,9 @@ __bonjour__
       .setAuthor('Nom', 'https://i.imgur.com/lm8s41J.png')
       .setColor(3447003)
       .setDescription('Ma Description - 2018 caractères')
-      .setFooter('Pied de page - 2048','https://i.imgur.com/w1vhFSR.png')
-      .setImage('https://i.imgur.com/yVpYmuV.png')
-      .setThumbnail('https://i.imgur.com/p2qNFag')
+      .setFooter('Pied de page - 2048','http://i.imgur.com/w1vhFSR.png')
+      .setImage('http://i.imgur.com/yVpYmuV.png')
+      .setThumbnail('https://i.imgur.com/p2qNFag.png')
       .setTimestamp()
       .setURL('http://google.com');
       
