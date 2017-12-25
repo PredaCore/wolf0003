@@ -47,7 +47,12 @@ __bonjour__
                  {
           name:'Markdown',
           value: 'Le **Markdown**, c\'est la *vie* ! ***Discord***'  
-        }]
+        }],
+        timestamps: new Date(),
+        footer: {
+          icon_url: bot.user.avatarURL,
+          text: 'Par Wolfayeur'
+        }
       }});
     }
   }
